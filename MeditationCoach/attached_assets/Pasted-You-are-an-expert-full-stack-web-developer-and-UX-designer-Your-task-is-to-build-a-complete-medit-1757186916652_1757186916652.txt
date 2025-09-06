@@ -1,0 +1,79 @@
+You are an expert full-stack web developer and UX designer. Your task is to build a **complete meditation and mindfulness web app** with multiple pages and immersive, visually pleasing experiences. The app should include the following features and requirements:
+
+---
+
+### 1. Meditation Page
+- The page lists multiple meditation sessions.
+- Each meditation has:
+  - A **unique, AI-generated or royalty-free nature background** (forest, beach, mountains, rain, etc.).
+  - **Audio**:
+    - Human voice guiding the meditation.
+    - Constant nature sounds in the background (rain, wind, birds, etc.) that **cannot be paused**.
+    - User can **play/pause the voice track independently**.
+    - Voice and background audio can come from **royalty-free sources** or be AI-generated.
+  - Simple **visualization** showing when the voice is active (e.g., a small animated waveform or indicator).
+- User experience:
+  - When entering a meditation, the user sees **only the nature background and audio**.
+  - Meditations are categorized by focus (ADHD, sleep, relaxation, focus, stress, etc.).
+- The page is visually immersive, like Calm, and responsive for mobile and desktop.
+
+---
+
+### 2. Mood Tracker Page
+- Users select how they feel each day from multiple options (e.g., happy, stressed, calm, anxious).
+- Visual representation:
+  - A “tree” grows over time as users log their mood.
+  - Positive days contribute **seeds** to the user’s inventory.
+  - Seeds can be planted to grow **trees**, and planting is limited to one at a time.
+  - Optional: display roots, branches, or leaves growing depending on mood progress.
+- Gamification:
+  - Seeds can also be exchanged in a separate “GIFT store.”
+  - Gifts are **locked until enough seeds are collected**, showing a lock icon.
+  - Clicking on a gift with enough seeds **unlocks it**, and the UI clearly shows unlocked vs. locked status.
+- Visual style:
+  - Use consistent, cohesive art style for trees, seeds, and gifts.
+  - Track and display mood history visually on a timeline or interactive calendar.
+
+---
+
+### 3. GIFT Store Page
+- Shows a **grid of gifts** that users can unlock with seeds.
+- Locked gifts have a **lock icon**.
+- Unlocked gifts have a clear visual indicator.
+- All gifts use a consistent **AI-generated art style**.
+
+---
+
+### 4. Assets and Resources
+- All audio and images should come from **free sources or AI-generated**.
+- Backgrounds for meditations should be **AI-generated, nature-themed, high-resolution images or GIFs**.
+- Meditations should have **human-sounding voice** (TTS or royalty-free recordings).
+- All images and sounds should be included locally in the project or linked from free sources; **no paid APIs**.
+
+---
+
+### 5. App Structure & UI
+- Use **HTML, CSS, and JavaScript** (or React if preferred) to build the front-end.
+- Use a lightweight JSON database or local storage for:
+  - Meditations metadata
+  - Mood logs
+  - Seeds and tree/gift progress
+- Include a **main navigation menu** to switch between:
+  - Meditation Library
+  - Mood Tracker
+  - GIFT Store
+- Responsive design, visually immersive, smooth animations, Calm-like aesthetic.
+- Include **all code and assets** so the app can be run directly in Replit or downloaded as a ZIP.
+
+---
+
+### 6. Deliverables
+- Full project code with:
+  - HTML/CSS/JS (or React files)
+  - JSON or local storage setup for meditations, moods, and gamification
+  - Preloaded placeholder meditation scripts, AI-generated or royalty-free audio references, nature backgrounds, and gifts
+- Clear folder structure:
+  - `index.html`, `css/`, `js/`, `audio/`, `images/`, `data/`
+- Instructions to run the app directly in Replit or any static web host.
+
+**Goal:** Produce a fully working, immersive meditation/mood app with gamified visual tracking, human-voiced meditations over constant nature sounds, and a consistent art style for backgrounds, gifts, and UI elements. All features must work without external paid services or APIs.

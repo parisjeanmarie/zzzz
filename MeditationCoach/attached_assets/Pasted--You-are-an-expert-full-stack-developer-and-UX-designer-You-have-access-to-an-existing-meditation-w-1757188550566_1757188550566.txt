@@ -1,0 +1,79 @@
+
+You are an expert full-stack developer and UX designer. You have access to an existing meditation web app that includes:
+
+- Meditate/Main page with meditation sessions.
+- Meditation enhancements with animated backgrounds (butterflies, Aurora/Northern Lights, etc.).
+- Mood Tracker page with seeds, trees, and gift inventory (currently in place).
+- Meditation categories: Sleep, Focus, Stress Relief, ADHD, Anxiety, PTSD.
+- GIF store page currently with some animated meditation enhancements and text titles like “Gift Store” and “Use Your Seeds to Unlock Beautiful Rewards” and “Meditation Enhancements.”
+- White background on the GIF store page.
+
+Your task is to **update the app** as follows:
+
+---
+
+### 1. Remove Mood Tracker
+- Delete the Mood Tracker page and all associated logic (mood logging, trees, seeds, gifts from mood tracking).
+- Ensure no references remain in navigation or other pages.
+
+---
+
+### 2. Keep Meditation Enhancements
+- Preserve all unlockable meditation enhancements.
+- Maintain animated backgrounds (butterflies, Aurora/Northern Lights, and other experiences).
+- Preserve all meditation categories, including PTSD.
+- Add **15 additional animated GIFs** as meditation enhancements with consistent art style and visual harmony.
+
+---
+
+### 3. Update GIF Store / Gifts Page
+- **Remove all text** that says:
+  - “Gift Store”
+  - “Use Your Seeds to Unlock Beautiful Rewards”
+  - “Meditation Enhancements”
+- Change the background from white to a **nature-themed image** (forest, mountains, beach, or Aurora style) for a calming aesthetic.
+- Ensure all existing and new GIFs are displayed clearly on this background.
+- Maintain unlockable/locked logic and coin cost display.
+
+---
+
+### 4. Add Monetization / Coins Page
+- Create a new page called “Shop” or “Coins.”
+- Users have a **coin balance** displayed on this page and optionally elsewhere in the app.
+- Users can use coins to **unlock meditations or enhancements**.
+- Locked meditations should clearly show the cost and a lock icon; unlocked meditations should appear normally.
+- Include **placeholder logic for in-app purchases** (no real payment integration required).
+
+---
+
+### 5. Maintain Aesthetic and Layout
+- Preserve the calming, immersive aesthetic throughout all pages.
+- Ensure meditation buttons, thumbnails, titles, and animations remain intact.
+- Adjust spacing, colors, and layouts if needed to maintain consistency and a soothing, balanced experience.
+
+---
+
+### 6. Assets
+- Use existing local assets (images, audio, scripts) wherever possible.
+- Maintain all GIFs and animation backgrounds.
+- Use royalty-free or AI-generated images/audio where needed.
+- No external paid APIs required.
+
+---
+
+### 7. Deliverables
+- Fully updated HTML, CSS, JS files ready to replace current app files.
+- Navigation updated to include the new Coins page and remove Mood Tracker.
+- All GIFs, animations, and meditation features functional and visually immersive.
+- GIF store/Gifts page updated with:
+  - Nature background
+  - 15 additional GIFs
+  - Removed text as specified
+- Consistent calming aesthetic across all pages.
+
+**Goal:** Produce a fully functional, visually immersive meditation and coins-based app with:
+- Mood tracker removed.
+- Meditation enhancements maintained and expanded.
+- GIF/Gifts page visually updated and free of the old titles/text.
+- New coins/shop system for unlocking meditations.
+- Consistent calming aesthetic throughout.

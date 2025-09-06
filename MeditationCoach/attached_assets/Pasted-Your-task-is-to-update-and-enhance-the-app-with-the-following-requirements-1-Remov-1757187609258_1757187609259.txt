@@ -1,0 +1,51 @@
+Your task is to **update and enhance the app** with the following requirements:
+
+---
+
+### **1. Remove Titles**
+- Remove the two titles at the top of the Meditate/Main page.
+- Keep everything else on the page (button layout, thumbnails, durations, categories) exactly as it is.
+
+---
+
+### **2. Update Background**
+- Change the background from white to a **blurred nature image** on the Meditate/Main page.
+- Ensure that all text and buttons remain sharp and readable above the blurred background.
+- Maintain a **visually immersive and calming aesthetic** consistent with apps like Calm.
+
+---
+
+### **3. Add Meditation Category**
+- Add a new category: **PTSD**.
+- Include this category wherever meditation categories are listed, selectable, or filterable.
+- Ensure it integrates seamlessly with existing category styles and layouts.
+
+---
+
+### **4. Fix Aesthetic Issues Across All Pages**
+- Review all pages (Meditate/Main, Mood Tracker, GIFT store, individual meditation experiences, etc.) for any design elements that could **break the calming, immersive feel**.
+- Adjust colors, spacing, fonts, button shapes, backgrounds, and other visual elements as needed to ensure **consistency and a soothing, balanced experience**.
+- Do not change functional elements unless necessary to improve aesthetic harmony.
+
+---
+
+### **5. Assets**
+- Use existing local assets (images, audio, scripts) wherever possible.
+- For the blurred nature background, include a placeholder image if necessary (e.g., `images/nature-blur.jpg`).
+- No external APIs or paid resources should be required.
+
+---
+
+### **6. Deliverables**
+- Provide fully updated HTML, CSS, and JavaScript files ready to replace the current app files.
+- Maintain the app’s existing structure, functionality, and layout.
+- Ensure that the app runs exactly as before but with all requested updates applied and a consistent, calming aesthetic throughout.
+
+---
+
+**Goal:** Produce a fully functional, visually immersive meditation and mood-tracking app that:
+- Has the top titles removed.
+- Uses a blurred nature background.
+- Adds a PTSD meditation category.
+- Fixes any visual elements that would reduce calmness.
+- Keeps all other functionality, layout, and interactivity intact.
